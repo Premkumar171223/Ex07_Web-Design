@@ -16,9 +16,57 @@
   Open the file in a browser and verify the output.
   
 ## CODE
-
-
+```
+<html>
+<head>
+<script type="text/javascript">
+function calc()
+{
+var a=prompt("Enter 1st Value");
+var b=prompt("Enter 2st Value");
+var op=prompt("Enter Operation to Perform 1.Addition 2.Subtraction 3.Multiplication 4.Division");
+var d;
+if(op==1)
+{
+d=a+b;
+alert(d);
+}
+else if(op==2)
+{
+d=a-b;
+alert(d);
+}
+else if(op==3)
+{
+d=a*b;
+alert(d);
+}
+else if(op==4)
+{
+d=a/b;
+alert(d);
+}
+else
+{
+alert("Invalid Operation");
+}
+}
+</script>
+</head>
+<body onload="calc()">
+<h1>
+Simple Calculator
+</h1>
+<hr color="red">
+<p> 
+Enter option for doing the corresponding operation
+</p>
+</body>
+</html>
+```
 ## OUTPUT
+![Screenshot (10)](https://github.com/Premkumar171223/Ex07_Web-Design/assets/127816632/1ad2044a-6a9a-479e-a810-40e5b921caf9)
+![Screenshot (9)](https://github.com/Premkumar171223/Ex07_Web-Design/assets/127816632/b7ee2655-3863-41b4-b819-a981a269aa28)
 
 
 ## RESULT
